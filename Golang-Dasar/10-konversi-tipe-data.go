@@ -6,9 +6,13 @@ misal, ingin mengkonversi tipe data int32 ke int63 dan lain-lain.
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+
+	// merubah int32 ke int64 dan int16
 	var nilai32 int32 = 100000
 	var nilai64 int64 = int64(nilai32)
 	var nilai16 int16 = int16(nilai32)

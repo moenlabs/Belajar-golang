@@ -46,8 +46,34 @@ func salam() {
 	fmt.Println("Assalamu'alaikum")
 }
 
+func penjumlahan() {
+	a := 3 * 4
+	fmt.Println(a)
+}
+
+func benar() {
+	jujur := true
+
+	fmt.Println(jujur)
+}
+
+func ef() {
+
+	if 100 > 200 {
+		fmt.Println("100 Lebih Besar dari 200")
+	} else {
+		fmt.Println("100 Lebih Kecil dari 200")
+	}
+}
+
 func main() {
 
 	salam()
+
+	penjumlahan()
+
+	benar()
+
+	ef()
 
 }
