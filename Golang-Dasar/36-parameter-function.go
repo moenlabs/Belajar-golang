@@ -28,10 +28,21 @@ package main
 import "fmt"
 
 func nama(namaDepan string, namaBelakang string) {
-	fmt.Println("Hey", namaDepan, namaBelakang)
+	fmt.Println("Namaku", namaDepan, namaBelakang)
+}
+
+func penjumlahan(a, b int) {
+	fmt.Println(a + b)
+}
+
+func getMenu(makan, minum string) {
+
+	fmt.Println("makan :", makan, "minum:", minum)
 }
 
 func main() {
 	nama("Ahmad", "Nur")
+	penjumlahan(10, 30)
+	getMenu("Pecel Lele", "Jeruk Panas")
 
 }

@@ -29,8 +29,14 @@ func penambahan(a int, b int) int { // int ini tipe data dari return
 	return a + b // value dari return
 }
 
+func sapaan(salam string) string {
+
+	return "Assalamualaikum," + salam
+}
+
 func main() {
 
 	hasil := penambahan(5, 10) // mengambil return dari function dan inisialisasi data di function
 	fmt.Println(hasil)
+	fmt.Println(sapaan("Zaid"))
 }
