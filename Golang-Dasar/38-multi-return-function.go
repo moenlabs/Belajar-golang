@@ -21,6 +21,12 @@ func uangSaku() (string, int) {
 	return "Muhammad", 2000
 }
 
+func hargaMenu(menu string, harga int) (string, int) {
+
+	return menu, harga
+
+}
+
 func main() {
 
 	namaDepan, namaBelakang := getNamaLengkap()
@@ -29,4 +35,12 @@ func main() {
 	// contoh tidak menangkap return value
 	_, uang := uangSaku()
 	fmt.Println(uang)
+
+	fmt.Println(hargaMenu("Nasi", 5000))
+
+	makanan, harga := hargaMenu("Pecel Lele", 10000)
+	fmt.Println(makanan, harga)
+
+	_, hargaMakanan := hargaMenu("Nasi Goreng", 9000)
+	fmt.Println(hargaMakanan)
 }

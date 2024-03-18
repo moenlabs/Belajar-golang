@@ -17,8 +17,17 @@ func inventaris() (komputer, laptop, hp int) {
 	return komputer, laptop, hp
 }
 
+func daftarStock() (makanan string, jumlah int) {
+	makanan = "jagung"
+	jumlah = 10
+
+	return makanan, jumlah
+}
+
 func main() {
 	a, b, _ := inventaris()
 	fmt.Println(a, b)
 	fmt.Println(inventaris())
+
+	fmt.Println(daftarStock())
 }
