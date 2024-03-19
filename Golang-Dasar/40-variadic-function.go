@@ -1,6 +1,6 @@
 /* Variadic Function
 Parameter yang berada di Posisi terahir,
-memiliki kemampuan dijadikan sebuah varargs.
+memiliki kemampuan dijadikan sebuah varargs (varabel arguments).
 Varargs artinya datanya bisa menerima lebih dari satu input,
 atau anggap saja semajam array.
 apa bedanya dengan parameter biasa dengan tipe data array?
