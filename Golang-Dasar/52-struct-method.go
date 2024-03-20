@@ -22,11 +22,24 @@ func (orang Person) namaKu(nama string) {
 	fmt.Println("Hi", nama, "Namaku adalah :", orang.Nama)
 }
 
+func (siswa Person) salam() {
+	fmt.Println("Assalamu'alaikum Namaku adalah :", siswa.Nama)
+}
+
 func main() {
 
 	adrik := Person{"Adrik", "Jogja", 21}
 
 	fmt.Println(adrik)
 
+	joko := Person{
+		Nama:   "Joko",
+		Alamat: "Srumbung",
+		Usia:   25,
+	}
+
 	adrik.namaKu("Adrik")
+
+	joko.salam()
+
 }
