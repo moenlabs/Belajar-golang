@@ -47,7 +47,7 @@ func main() {
 
 	orang := Orang{
 		Name:   "Muhammad",
-		Alamat: "",
+		Alamat: "Jogja",
 		Email:  "moen",
 	}
 
