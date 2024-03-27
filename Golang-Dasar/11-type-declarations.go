@@ -34,10 +34,39 @@ func main() {
 	var kali = 4.00
 	var hasil koma = koma(kali)
 
+	// type declaration banya
+
+	type (
+		Tipe1 string
+		Tipe2 int
+	)
+
+	type (
+		Variasi1 = string
+		Variasi2 = int
+	)
+
+	var tipe1 Tipe1 = "zaid"
+	var tipe1a Tipe1 = "umar"
+	gabungkan := Tipe1(tipe1)
+
+	var tipe2 Tipe2 = 20
+	gabunganTipe2 := (tipe2)
+
+	var variasi1 Variasi1 = "Bakar"
+	var variasi2 Variasi2 = 20
+
 	fmt.Println(nomor, no)
 	fmt.Println(jujur)
 	fmt.Println(salah, nilai)
 	fmt.Println(rt, rw1)
 	fmt.Println(bagi, hasil)
+
+	// cetak banyak type declaration
+
+	fmt.Println(tipe1a, gabungkan)
+	fmt.Println(gabunganTipe2)
+
+	fmt.Println(variasi1, variasi2)
 
 }
