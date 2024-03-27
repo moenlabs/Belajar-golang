@@ -21,4 +21,12 @@ func main() {
 		fmt.Println("100 Lebih besar dari pada 76")
 	}
 
+	nilai := 30
+
+	if nilai > 50 {
+		fmt.Println("Nilai Lebih Besar Dari 50")
+	} else {
+		fmt.Println("Nilai Lebih Kecil Dari 50")
+	}
+
 }
