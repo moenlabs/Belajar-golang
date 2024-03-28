@@ -39,10 +39,16 @@ func main() {
 	kamar["Jumlah Anak"] = 100
 	kamar["jumlah uang"] = 10000
 
+	// belajar map lagi
+
+	barang := map[string]int{"Sendok": 15, "Piring": 10, "Gelas": 5}
+
 	fmt.Println(orang)
 	fmt.Println(siswa)
 	fmt.Println(data)
 	fmt.Println(kamar)
+	fmt.Println(barang)
+	fmt.Println(barang["Piring"])
 
 	// jika mengangakses key yang tidak ada
 	// maka hasilnya adalah default dari value dari key tersebut
