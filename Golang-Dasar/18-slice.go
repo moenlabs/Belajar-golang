@@ -36,6 +36,10 @@ func main() {
 	// contoh 2 deklarasi slice dengan length dan kapasitas 4
 	hewan := []string{"ayam", "bebek", "kucing", "sapi"}
 
+	// belajar slice 1
+
+	buah := []string{"apel", "jeruk", "jambu"}
+
 	// Contoh 3 deklarasi slice dari array
 	var rak = [3]string{"buku 1", "buku 2", "buku 3"} // ini arraynya
 	rakBuku1 := rak[1:3]                              // membuat slice dari array dimulai index 1 sampai index sebelum 3.
@@ -53,6 +57,5 @@ func main() {
 	fmt.Println(rakBuku3, "Adalah Slice yang dibuat dari Array", rak, "dari index 0 sampai index sebelum 2")
 	fmt.Println(rakBuku4, "Adalah Slice yang dibuat dari Array", rak, "dari index 1 sampai index akhir array")
 	fmt.Println(ambilSlice)
+	fmt.Println(len(buah))
 }
-
-// contoh Deklarasi Slice
