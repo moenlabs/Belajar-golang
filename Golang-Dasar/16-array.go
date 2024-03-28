@@ -24,10 +24,10 @@ func main() {
 	var kelompok = [...]string{"satu", "dua", "tiga"}
 
 	// contoh 3 deklarasi array
-	nomor := [5]int8{1, 2, 3, 4, 5}
+	nomor := [5]int{1, 2, 3, 4, 5}
 
 	// contoh 4 deklarasi array tanpa menentukan panjang array
-	urutan := [...]int8{1, 2, 3}
+	var urutan = [...]int8{1, 2, 3}
 
 	//contoh 3 mengisi array kosong
 
@@ -39,6 +39,10 @@ func main() {
 	// contoh error menambahkan array
 	// data[3] = "fatimah"
 	// urutan[3] = 4
+
+	// array latiah
+
+	nomer := [5]int{1, 2, 3, 4, 5}
 
 	// contoh merubah array
 	data[2] = "siapa"
@@ -61,5 +65,8 @@ func main() {
 	fmt.Println(data)
 	fmt.Println(data[2]) // mengambil data array
 	fmt.Println(kosong)
+	fmt.Println(nomer)
+	fmt.Println(nomer[2])
+	fmt.Println(len(nomer))
 	// fmt.Println(mobil)
 }
