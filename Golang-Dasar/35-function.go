@@ -66,6 +66,13 @@ func ef() {
 	}
 }
 
+func tambah() int {
+	a := 5
+	b := 6
+	c := a * b
+	return c
+}
+
 func main() {
 
 	salam()
@@ -75,5 +82,7 @@ func main() {
 	benar()
 
 	ef()
+
+	fmt.Println(tambah())
 
 }
