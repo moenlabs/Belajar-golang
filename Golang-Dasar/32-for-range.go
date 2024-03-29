@@ -57,4 +57,10 @@ func main() {
 	for index, _ := range inventaris {
 		fmt.Println("Nama Barang: ", index)
 	}
+
+	alat := []string{"Pacul", "Sekop", "Palu"}
+
+	for _, nama := range alat {
+		fmt.Println("Nama Alat: ", nama)
+	}
 }
