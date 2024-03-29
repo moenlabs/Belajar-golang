@@ -42,6 +42,11 @@ func perkalian(l string, m int, n int) (ucapan string, hasil int) {
 	return
 }
 
+func matika(a, b int) (hasilnya int) {
+	hasilnya = a * b
+	return hasilnya
+}
+
 func main() {
 	a, b, _ := inventaris()
 	fmt.Println(a, b)
@@ -50,4 +55,7 @@ func main() {
 	fmt.Println(rakaatShalat())
 	fmt.Println(penjumlahan(20, 30))
 	fmt.Println(perkalian("Hasil Perkalian: ", 11, 7))
+
+	coba := matika(5, 7)
+	fmt.Println(coba)
 }
