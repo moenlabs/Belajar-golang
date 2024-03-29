@@ -27,6 +27,10 @@ func hargaMenu(menu string, harga int) (string, int) {
 
 }
 
+func jumlahBarang(nama string, jumlah int) (string, int) {
+	return nama, jumlah
+}
+
 func main() {
 
 	namaDepan, namaBelakang := getNamaLengkap()
@@ -43,4 +47,7 @@ func main() {
 
 	_, hargaMakanan := hargaMenu("Nasi Goreng", 9000)
 	fmt.Println(hargaMakanan)
+
+	nama, jumlah := jumlahBarang("Jeruk :", 5)
+	fmt.Println(nama, jumlah)
 }
