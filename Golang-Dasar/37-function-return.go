@@ -34,9 +34,16 @@ func sapaan(salam string) string {
 	return "Assalamualaikum," + salam
 }
 
+func nama(nama string) string {
+	return "Nama saya " + nama
+}
+
 func main() {
 
 	hasil := penambahan(5, 10) // mengambil return dari function dan inisialisasi data di function
 	fmt.Println(hasil)
 	fmt.Println(sapaan("Zaid"))
+
+	namaSaya := nama("Adrik")
+	fmt.Println(namaSaya)
 }

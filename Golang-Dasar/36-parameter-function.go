@@ -49,5 +49,4 @@ func main() {
 	penjumlahan(10, 30)
 	getMenu("Pecel Lele", "Jeruk Panas")
 	myName("Misbahul", "Munir")
-
 }
