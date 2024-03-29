@@ -51,4 +51,9 @@ func main() {
 	}
 
 	fmt.Println("Selesai")
+
+	// latihan ulang for loop
+	for counter := 1; counter <= 5; counter++ {
+		fmt.Println("Counter ke: ", counter)
+	}
 }
