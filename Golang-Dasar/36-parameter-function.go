@@ -40,9 +40,14 @@ func getMenu(makan, minum string) {
 	fmt.Println("makan :", makan, "minum:", minum)
 }
 
+func myName(firtsName, lastName string) {
+	fmt.Println("Nama Depan: ", firtsName, "\nNama Belakang: ", lastName)
+}
+
 func main() {
 	nama("Ahmad", "Nur")
 	penjumlahan(10, 30)
 	getMenu("Pecel Lele", "Jeruk Panas")
+	myName("Misbahul", "Munir")
 
 }
