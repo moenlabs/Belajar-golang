@@ -22,13 +22,25 @@ func data(nama string) string {
 	return "Nama Saya: " + nama
 }
 
+func nilai(nilai int) int {
+	if nilai <= 90 {
+		fmt.Println("Tidak Lulus")
+	} else if nilai >= 90 {
+		fmt.Println("Anda Lulus")
+	}
+
+	return nilai
+}
+
 func main() {
 
 	sapaan := salam // variabel sapaan mempunyai nilai function salam
 	fmt.Println(sapaan("Ahmad"))
 
 	detail := data
-
 	fmt.Println(detail("Adrik"))
+
+	hasilNilai := nilai
+	fmt.Println(hasilNilai(95))
 
 }
