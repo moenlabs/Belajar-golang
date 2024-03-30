@@ -18,8 +18,17 @@ func salam(ucapan string) string {
 	return "Assalamu'alaikum " + ucapan
 }
 
+func data(nama string) string {
+	return "Nama Saya: " + nama
+}
+
 func main() {
 
 	sapaan := salam // variabel sapaan mempunyai nilai function salam
 	fmt.Println(sapaan("Ahmad"))
+
+	detail := data
+
+	fmt.Println(detail("Adrik"))
+
 }
