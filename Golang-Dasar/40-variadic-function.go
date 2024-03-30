@@ -21,7 +21,6 @@ import "fmt"
 // contoh variadic function array
 func penjumlahan(nomor ...int) int {
 	total := 0
-
 	for _, number := range nomor {
 		total += number
 
@@ -40,11 +39,23 @@ func perkalian(angka []int) int {
 	return hasil
 }
 
+func sumAll(numbers ...int)int{
+	total := 0 
+	for _, number := range numbers {
+		total += number
+	}
+
+	return total
+}
+
 func main() {
 	total := penjumlahan(5, 7, 9)
 	hasil := perkalian([]int{2, 4, 1})
 	fmt.Println("Total Penjumlahan Variadic dengan Array: ", total)
 	fmt.Println("Hasil dari Perkalian Variadic dengan Slice:", hasil)
+
+	hasilnya := sumAll(10, 10, 5, 20, 23)
+	fmt.Println(hasilnya)
 
 	// contoh slice jadi parameter
 	numbers := []int{1, 3, 5, 7} // ini slice
