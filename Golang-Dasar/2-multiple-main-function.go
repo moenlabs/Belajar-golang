@@ -19,5 +19,6 @@ package main
 import "fmt"
 
 func main () {
-	fmt.Println("ini multiple function")
+	fmt.Println("ini multiple main function")
+	fmt.Println("Belajar Multiple Main  Function Lagi")
 }
