@@ -22,6 +22,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello World")
+	fmt.Println("Halo Dunia")
 }
 
 // untuk menjalankan program dengan mengkompilasi dengan kode go build kemudian jalankan dengan ./ nama program
